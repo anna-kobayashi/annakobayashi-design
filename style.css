@@ -1527,4 +1527,32 @@ h4{
     margin-top: 50px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. bodyの設定を確認 */
+body {
+    margin: 0; /* ← これが重要！ */
+    padding: 0;
+    background-color: #fffaf0;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+}
+
+/* 3. headerの設定を微調整 */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;      /* 左端に固定 */
+    width: 100%;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    /* 念のため上に隙間ができないように */
+    border: none; 
+}
+
 }
