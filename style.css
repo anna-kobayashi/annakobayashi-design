@@ -1014,9 +1014,6 @@ body.is-fixed {
     overflow: hidden;
   }
 
-html {
-    background: #fff;
-  }
     
 header {
     position: fixed;
